@@ -1,0 +1,96 @@
+strong {
+}
+
+h1 {
+  text-align:center;
+  font-family:"Times New Roman", sans-serif;
+  text-shadow:2px 2px 5px rgb(255,141,195);
+}
+
+input {
+  width:60%;
+  height:45px;
+  box-shadow:0 0 6px rgba(216,12,249,0.92);
+  font-size:large;
+  color:#000;
+  font-family:"Comic Sans MS", serif;
+  padding-left:15px;
+  border-radius:35px;
+  border:0;
+  background-color:#eee;
+  outline:none;
+}
+
+.col-md-12 {
+  text-align:center;
+}
+
+.col-md-4.align-self-center {
+  text-align:center;
+}
+
+.h1, h1 {
+  color:#000000;
+  font-family:Castellar, serif;
+  font-weight:bold;
+  text-shadow:0 0 2px #fcae8c;
+  margin:10px 0 10px 0;
+}
+
+.h3, h3 {
+  color:#000000;
+  font-family:Castellar, serif;
+  font-weight:bold;
+  text-shadow:0 0 2px #b5b0ff;
+  margin:10px 0 10px 0;
+  border-top:2px solid rgba(52, 48, 203, 0.59);
+  border-bottom:2px solid rgba(52, 48, 203, 0.59);
+}
+
+textarea {
+  width:80%;
+  box-shadow:2px 2px 5px rgba(255,15,0,0.74);
+  border-radius:10%;
+  outline:none;
+  padding:10px 15px 10px 15px;
+}
+
+.btn:not(:disabled):not(.disabled) {
+  font-size:22px;
+  border-radius:10px;
+  outline:none;
+}
+
+div {
+  text-align:center;
+}
+
+[type=search] {
+  width:50%;
+  -webkit-transition:width 0.4s ease-in-out;
+  transition:width 0.4s ease-in-out;
+}
+
+[type=search]:focus {
+  width:80%;
+}
+
+.col {
+  text-align:center;
+}
+
+p {
+  font-family:"Times New Roman", sans-serif;
+  text-align:center;
+}
+
+.h4, h4 {
+  text-align:left;
+  font-weight:bold;
+  font-size:1rem;
+  color: rgb(55, 0, 185);
+}
+
+strong {
+}
+
