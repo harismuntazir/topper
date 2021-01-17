@@ -1,0 +1,299 @@
+/* welcome */
+
+/* general styles */
+input, button{
+	outline: none;
+}
+#main {
+    border: 2px solid rgba(220, 20, 60, 0);
+    text-align: center;
+}
+#header {
+    height: 10%;
+    border: 2px solid rgba(54, 0, 220, 0);
+    text-align: center;
+    display: block;
+}
+.heading {
+    text-shadow: 1px 1px 1px black;
+    color: #af0000;
+}
+#msg {
+    height: 10%;
+    border: 2px rgba(102, 51, 153, 0) solid;
+    display: block;
+    text-align: center;
+}
+.welcome_msg {
+    color: blue;
+    font-size: large;
+    font-family: "Comic Sans MS", serif;
+    font-weight: bold;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.38);
+}
+.err_msg {
+    color: #ff5e00;
+    font-size: large;
+    font-family: "Comic Sans MS", serif;
+    font-weight: bold;
+    text-shadow: 0 2px 3px #000000;
+}
+.glow {
+    color: #ff4b05;
+    text-shadow: 1px 1px 3px rgba(47, 79, 79, 0.61);
+}
+.dim {
+    color: #000;
+    font-size: large;
+    font-family: "Times New Roman", serif;
+}
+
+/* insert.php */
+#ins_form {
+    border: 2px solid rgba(220, 20, 60, 0);
+    margin: 30px 0 0 0;
+    display: block;
+}
+#ins_group1 {
+    border: 2px solid rgba(220, 20, 60, 0);
+    display: inline-block;
+}
+#ins_group2 {
+    border: 2px solid rgba(220, 20, 60, 0);
+    display: inline-block;
+}
+#ins_group3 {
+    border: 2px solid rgba(220, 20, 60, 0);
+}
+#ins_label {
+    font-size: large;
+    color: #ff7922;
+    font-family: Castellar, serif;
+    font-weight: bold;
+    text-shadow: 0 0 2px #b5b0ff;
+    margin: 20px 0 10px 0;
+}
+#ins_field {
+    box-shadow: 2px 2px 6px #999900;
+    margin: 0 10px 20px 10px;
+}
+#ins_field_desc {
+    margin: 10px 0 0 0;
+    width: 80%;
+    min-height: 270px;
+    height: max-content;
+    display: inline-block;
+}
+#ins_submit {
+    margin: 20px 0 0 0;
+    width: max-content;
+    display: inline-block;
+}
+.ins_field {
+    width: 320px;
+    height: 35px;
+    box-shadow: 0 0 6px #999900;
+    font-size: large;
+    color: #ffc000;
+    font-family: "Comic Sans MS", serif;
+    padding-left: 5px;
+}
+.ins_field_desc {
+    width: 90%;
+    min-height: 270px;
+    height: max-content;
+    box-shadow: 2px 2px 6px #999900;
+    font-size: medium;
+    color: black;
+    font-family: "Comic Sans MS", serif;
+    padding-left: 5px;
+}
+.ins_submit {
+    width: 200px;
+    height: 45px;
+    font-size: x-large;
+    font-family: "Times New Roman", serif;
+    color: #f52645;
+    text-shadow: 0 0 5px black;
+    background-color: #f0fff4;
+    border-radius: 20px;
+    border: 0;
+    box-shadow: 0 0 6px #110e12;
+}
+.ins_submit:hover {
+    box-shadow: 3px 3px 6px #8f008f, -3px -3px 6px #8f008f;
+}
+
+/* show.php */
+#show_form {
+    border-bottom: 4px solid rgba(220, 16, 0, 0);
+    margin: 20px 0 0 0;
+    display: inline-block;
+    min-height: 250px;
+    width: 90%;
+    box-shadow: 0 5px 2px rgba(24, 0, 0, 0),inset -9px -9px 9px rgba(0, 0, 0, 0);
+    border-radius: 200px;
+}
+
+#show_group1 {
+    border: 2px solid rgba(0, 58, 220, 0);
+    max-width: 49%;
+    width: max-content;
+    display: inline-block;
+    margin: 0 20px 30px 20px;
+
+}
+#show_group2 {
+    border: 2px solid rgba(51, 220, 35, 0);
+    max-width: 49%;
+    width: max-content;
+    display: inline-block;
+    margin: 0 20px 30px 20px;
+}
+#show_group3 {
+    max-width: 80%;
+    margin: 0 0 0 11%;
+    background-color: rgba(128, 128, 128, 0);
+    border-top: 2px solid rgba(52, 48, 203, 0.59);
+}
+#show_label {
+    font-size: large;
+    color: #000000;
+    font-family: Castellar, serif;
+    font-weight: bold;
+    text-shadow: 0 0 2px #b5b0ff;
+    margin: 10px 0 10px 0;
+}
+#show_field {
+    font-size: large;
+    font-weight: bold;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.59);
+    height: max-content;
+    min-width: 50px;
+    width: max-content;
+    color: #000000;
+    border-radius: 30px;
+}
+#show_field_desc {
+    height: max-content;
+    width: 100%;
+    color: black;
+    display: block;
+    border-top: 2px solid rgba(52, 48, 203, 0.59);
+}
+
+.show_field {
+    padding: 15px 20px 0 20px;
+}
+.show_field_desc {
+    font-size: large;
+    font-family: "Comic Sans MS", serif;
+    text-align: left;
+    padding: 10px 10px 10px 20px;
+    box-shadow: 0 0 5px #d047b3;
+    border-radius: 40px;
+    background-color: #eeeeee;
+    height: max-content;
+}
+.show_field_desc:hover {
+    box-shadow: 0 0 10px rgba(41, 0, 255, 0.69);
+}
+#show_edit {
+    border: 2px rgba(255, 0, 0, 0) solid;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 10px;
+}
+.show_edit {
+    font-size: large;
+    font-family: "Comic Sans MS", sans-serif;
+}
+.show_edit:hover {
+    color: blue;
+    text-shadow: 2px 2px 3px wheat;
+    font-weight: bold;
+}
+
+/* find.php */
+#find_form {
+    border: 2px solid rgba(220, 20, 60, 0);
+    margin: 30px 0 0 0;
+    display: block;
+}
+#find_group1 {
+    border: 2px solid rgba(220, 20, 60, 0);
+    display: inline-block;
+    width: 50%;
+    border-radius: 35px; margin: 0 auto 0 auto;
+}
+#find_field {
+    margin: 0 10px 20px 10px;
+    width: 80%;
+    border-radius: 35px;
+    display: inline-block;
+}
+.find_field {
+    width: 100%;
+    height: 45px;
+    box-shadow: 0 0 6px #999900;
+    font-size: large;
+    color: #000;
+    font-family: "Comic Sans MS", serif;
+    padding-left: 15px;
+    border-radius: 35px;
+    border: 0;
+    background-color: #eee;
+}
+#find_label {
+    font-size: xx-large;
+    color: #ff614e;
+    font-family: Castellar, serif;
+    font-weight: bolder;
+    text-shadow: 0 3px 3px #000000;
+    margin: 0 0 20px 0;
+    display: inline-block;
+}
+
+/* search */
+
+#s_field {
+    border: 2px solid rgba(255, 0, 0, 0);
+    display: inline-block;
+    width: 85%;
+}
+#gp1 {
+    border-bottom: 2px solid rgba(0, 0, 255, 0);
+    display: inline-block;
+    width: 100%;
+}
+#s_title_line {
+    border: 2px solid rgba(255, 0, 0, 0);
+    display: inline-block;
+    width: max-content;
+    float: left;
+    margin: 0 0 0 5%;
+}
+#s_desc_pre {
+    border-bottom: 2px solid rgba(49, 0, 255, 0.6);
+    display: block;
+    width: 85%;
+    height: max-content;
+    float: left;
+    margin: 0 0 0 5%;
+}
+.s_title_line {
+    padding: 0 10px 0 10px;
+    font-size: large;
+    
+}
+.s_desc_pre {
+    padding: 0 25px 0 15px;
+    text-align: left;
+}
+.s_link {
+    color: #1f00e5;
+
+}
+.s_link:hover {
+    color: red;
+}
