@@ -6,7 +6,7 @@
  * Time: 10:55 PM
  */
 
-$mysql = mysqli_connect("remotemysql.com","0UlclGY7Yx","0UlclGY7Yx","topper");
+$mysql = mysqli_connect("remotemysql.com","pXJH3D9tZ6","0UlclGY7Yx","pXJH3D9tZ6");
 
 if (!$mysql) {
     echo ucwords("<section id='msg'><p class='err_msg'> oops ! server connection error, check back later. </p></section>");
