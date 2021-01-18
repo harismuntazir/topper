@@ -11,4 +11,6 @@ $mysql = mysqli_connect("remotemysql.com","pXJH3D9tZ6","0UlclGY7Yx","pXJH3D9tZ6"
 if (!$mysql) {
     echo ucwords("<section id='msg'><p class='err_msg'> oops ! server connection error, check back later. </p></section>");
     exit;
+} else {
+    echo "connected !";
 }
