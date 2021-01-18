@@ -12,20 +12,16 @@
 <html lang="en">
 <head>
     <title>The Topper - Bad Tools</title>
-    <link rel="stylesheet" href="../styles/style.css"/>
-    <link rel="stylesheet" href="../styles/list.css"/>
 
 </head>
 <body>
     <section id="main">
         <section id="header">
             <section id="logo">
-                <a href="https://errorworld.in/"><img src="../content/images/logos/logo.jpg" class="logo"/></a>
+                <a href="https://errorworld.in/"></a>
             </section>
-            <?php require_once "../header.php" ?>
         </section>
 
-        <?php require_once "../menu.php" ?>
 
         <section id="main_body" style="text-align: center">
             <section id="list">
@@ -36,7 +32,6 @@
             </section>
         </section>
 
-        <?php require_once "../footer.php" ?>
     </section>
 </body>
 </html>
